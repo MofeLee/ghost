@@ -1,4 +1,4 @@
-FROM node:4.2-slim
+FROM mofe/node:4-slim
 
 RUN groupadd user && useradd --create-home --home-dir /home/user -g user user
 
